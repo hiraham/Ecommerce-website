@@ -50,12 +50,7 @@ const Progressor = () => {
                   <p className='text-xs text-white'>Ready to eat? to process to checkout and complete your order</p>
       </div>
     </div>
-
-
-
-
-    
-   </div>
+</div>
   )
 }
 

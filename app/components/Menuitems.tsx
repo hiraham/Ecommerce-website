@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import { FaShoppingCart } from 'react-icons/fa';
 
 const ProductCardGrid = () => {
   const productImages = [
@@ -28,7 +28,6 @@ const ProductCardGrid = () => {
         }}
       />
       
-    
       <h1 className='font-bold text-4xl mb-4 text-white z-10 relative'>
         RedOven Delicious Pizzas
       </h1>
@@ -36,25 +35,41 @@ const ProductCardGrid = () => {
         Order now and enjoy the best pizza in town!
       </p>
 
-  
       <section
-        id='pizza-products'
-        className='w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 z-10 relative'
+        id='projects'
+        className='w-full mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 md:grid-cols-2 justify-items-center gap-y-20 gap-x-10 mt-10 mb-5'
       >
-        {productImages.map((src, index) => (
-          <div key={index} className="relative p-4 bg-white rounded-lg shadow-md">
-            <Image
-              src={src}
-              alt={`Pizza ${index + 1}`}
-              width={300}
-              height={300}
-              className="rounded-lg"
-            />
+        {Array.from({ length: 6 }).map((_, index) => (
+          <div
+            key={index}
+            className='w-70 bg-white shadow-md rounded-xl duration-500 hover:scale-105 hover:shadow-xl z-10 relative'
+          >
+            <a href='#'>
+              <img
+                src={productImages[index]}
+                alt={`Pizza ${index + 1}`}
+                width={300}
+                height={300}
+                className="h-75 w-72 object-cover rounded-t-xl"
+              />
+            </a>
+            <div className='px-4 py-3 w-72'>
+              <span className='text-slate-500 mr-3 uppercase text-xs'>Category</span>
+              <p className='text-lg font-bold text-red-700 truncate block capitalize'>special pizzas</p>
+              <div className='flex items-center'>
+                <p className='text-lg font-semibold text-black my-3 cursor-auto'>1499</p>
+                <del>
+                  <p className='text-sm text-blue-200 cursor-auto ml-2'>2000</p>
+                </del>
+                <div className='ml-auto'>
+                  <FaShoppingCart className='w-5 h-5 text-blue-500' />
+                </div>
+              </div>
+            </div>
           </div>
         ))}
       </section>
 
-      
       <h1 className='font-bold text-4xl mt-10 text-white z-10 relative'>
         Craving More?
       </h1>
@@ -66,4 +81,3 @@ const ProductCardGrid = () => {
 }
 
 export default ProductCardGrid;
-

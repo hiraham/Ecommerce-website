@@ -5,7 +5,7 @@ const products = [
     id: 1,
     title: "Classic Pizza",
     category: "fixing",
-    price: "1000",
+    price: "1999",
     imageUrl: "./a.png",
     bgColor: "bg-amber-500",
   },
@@ -13,7 +13,7 @@ const products = [
     id: 2,
     title: "Mexican Pizza",
     category: "fixed",
-    price: "1200",
+    price: "1899",
     imageUrl: "./bcd.png",
     bgColor: "bg-amber-400",
   },
@@ -21,7 +21,7 @@ const products = [
     id: 3,
     title: " Pizza",
     category: "fixed",
-    price: "1500",
+    price: "1599",
     imageUrl: "./cde.png",
     bgColor: "bg-amber-300",
   },
@@ -29,7 +29,7 @@ const products = [
     id: 4,
     title: " Pizza",
     category: "fixed",
-    price: "1000",
+    price: "1499",
     imageUrl: "./c.png",
     bgColor: "bg-amber-200",
   },
@@ -37,7 +37,7 @@ const products = [
     id: 5,
     title: "spicy Pizza",
     category: "fixed",
-    price: "1200",
+    price: "1299",
     imageUrl: "./s.png",
     bgColor: "bg-amber-100",
   },
@@ -93,7 +93,7 @@ const ProductList = () => {
             <div className='flex justify-between'>
               <span className='block font-semibold text-xl'>{product.title}</span>
               <span className='block bg-white rounded-full text-orange-500 text-xs font-bold px-3 py-2 leading-none items-center'>
-                ${product.price}
+                {product.price}
               </span>
             </div>
           </div>

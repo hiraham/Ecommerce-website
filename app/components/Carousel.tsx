@@ -16,7 +16,7 @@ const Carousel = () => {
        <div className='absolute inset-0 bg-gradient-to-b from-slate-900/25 to-900/5'>
        </div>
        <h3 className='z-10 text-2xl font-medium text-white absolute top-0 left-0 p-3 xs:text-xl md:text-0xl'>
-        classic bites("  ")
+        classic bites(&quot;)
        </h3>
        </a>
        </div>
@@ -33,7 +33,7 @@ const Carousel = () => {
        <div className='absolute inset-0 bg-gradient-to-b from-slate-900/25 to-900/5'>
        </div>
        <h3 className='z-10 text-2xl font-medium text-white absolute top-0 left-0 p-3 xs:text-xl md:text-0xl'>
-        special pizza("  ")
+        special pizza(&quot;)
        </h3>
        </a>
        <a href=''
@@ -44,7 +44,7 @@ const Carousel = () => {
         <div className='absolute inset-0 bg-gradient-to-b from-slate-900/25 to-900/5'>
        </div>
        <h3 className='z-10 text-2xl font-medium text-white absolute top-0 left-0 p-3 xs:text-xl md:text-0xl'>
-        tandori pizza("  ")
+        tandori pizza(&quot;)
        </h3>
        </a>
        </div>
@@ -58,7 +58,7 @@ const Carousel = () => {
           <div className='absolute inset-0 bg-gradient-to-b from-slate-900/25 to-900/5'>
           </div>
           <h3 className='z-10 text-2xl font-medium text-white absolute top-0 left-0 p-3 xs:text-xl md:text-0xl'>
-           yummy pizza("  ")
+           yummy pizza(&quot;)
           </h3>
         </a>
        </div>
@@ -73,7 +73,7 @@ const Carousel = () => {
           <div className='absolute inset-0 bg-gradient-to-b from-slate-900/25 to-900/5'>
           </div>
           <h3 className='z-10 text-2xl font-medium text-white absolute top-0 left-0 p-3 xs:text-xl md:text-0xl'>
-           tandori pizza("  ")
+           tandori pizza(&quot;)
           </h3>
         </a>
        </div>
@@ -87,7 +87,7 @@ const Carousel = () => {
        <div className='absolute inset-0 bg-gradient-to-b from-slate-900/25 to-900/5'>
        </div>
        <h3 className='z-10 text-2xl font-medium text-white absolute top-0 left-0 p-3 xs:text-xl md:text-0xl'>
-        mini pizza("  ")
+        mini pizza(&quot;)
        </h3>
        </a>
        <a href=''
@@ -98,7 +98,7 @@ const Carousel = () => {
         <div className='absolute inset-0 bg-gradient-to-b from-slate-900/25 to-900/5'>
        </div>
        <h3 className='z-10 text-2xl font-medium text-white absolute top-0 left-0 p-3 xs:text-xl md:text-0xl'>
-        tikka pizza("  ")
+        tikka pizza(&quot;)
        </h3>
        </a>
        </div>
@@ -114,19 +114,13 @@ const Carousel = () => {
           <div className='absolute inset-0 bg-gradient-to-b from-slate-900/25 to-900/5'>
           </div>
           <h3 className='z-10 text-2xl font-medium text-white absolute top-0 left-0 p-3 xs:text-xl md:text-0xl'>
-           classic pizza("  ")
+           classic pizza(&quot;)
           </h3>
         </a>
        </div>
-
-
-    
-
-
-
-         </div>
-        </div>
-      </section>
+       </div>
+     </div>
+    </section>
     </div>
   )
 }

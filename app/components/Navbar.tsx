@@ -39,7 +39,8 @@ const Navbar = () => {
                   className="inline-block w-8 h-8 rounded-full ring-2 ring-amber-400"
                   src="./d.png"
                   alt="user avatar"
-                />
+                />  
+
               </div>
             </div>
           </div>
